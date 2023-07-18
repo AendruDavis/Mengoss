@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/home"
+        android:name="com.kotlin.mengoss.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/gallery"
+        android:name="com.kotlin.mengoss.ui.gallery.GalleryFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/contact"
+        android:name="com.kotlin.mengoss.ui.Contact.ContactFragment"
+        android:label="Contact us"
+        tools:layout="@layout/fragment_contactus" />
+    <fragment
+        android:id="@+id/students"
+        android:name="com.kotlin.mengoss.StudentsFragment"
+        android:label="Students"
+        tools:layout="@layout/fragment_students" />
+    <fragment
+        android:id="@+id/about"
+        android:name="com.kotlin.mengoss.AboutFragment"
+        android:label="About us"
+        tools:layout="@layout/fragment_about" />
+    <fragment
+        android:id="@+id/academics"
+        android:name="com.kotlin.mengoss.AcademicsFragment"
+        android:label="Academics"
+        tools:layout="@layout/fragment_academics" />
+    <fragment
+        android:id="@+id/anthemFragment"
+        android:name="com.kotlin.mengoss.AnthemFragment"
+        android:label="Anthem"
+        tools:layout="@layout/fragment_anthem" />
+    <fragment
+        android:id="@+id/historyFragment"
+        android:name="com.kotlin.mengoss.HistoryFragment"
+        android:label="History"
+        tools:layout="@layout/fragment_history" />
+    <fragment
+        android:id="@+id/boardFragment"
+        android:name="com.kotlin.mengoss.BoardFragment"
+        android:label="Board Of Governors"
+        tools:layout="@layout/fragment_board" />
+    <fragment
+        android:id="@+id/prevhtFragment"
+        android:name="com.kotlin.mengoss.PrevhtFragment"
+        android:label="Previous Headteachers"
+        tools:layout="@layout/fragment_prevht" />
+    <fragment
+        android:id="@+id/PTAFragment"
+        android:name="com.kotlin.mengoss.PTAFragment"
+        android:label="School PTA"
+        tools:layout="@layout/fragment_p_t_a" />
+</navigation>
